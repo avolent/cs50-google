@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Google Advanced Search</title>
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -12,7 +12,7 @@
             </div>
             <div id="center-nav"></div>
             <div id="right-nav">
-            <a href="images.html">Images</a>
+            <a href="index.html">Google Search</a>
             </div>
         </div>
         <div id="advanced-search-title">
@@ -21,23 +21,23 @@
         <div style="border-bottom: 1px #ebebeb solid"></div>
         <form action="https://google.com/search">
             <div class="advanced-search">
-                <div>Find pages with...</div>
+                <div id="sub">Find pages with...</div>
                 <div></div>
-                <div>To do this in the search box.</div>  
+                <div id="subsub">To do this in the search box.</div>  
                 <div>all these words:</div>
-                <div><input class="advanced-input" type="text"type="text" name="q" autocapitalize="off" autocomplete="off" spellcheck="false"></div>
-                <div>Type the important words: tri-colour rat terrier</div>  
+                <div><input class="advanced-input" type="text" name="as_q" autocapitalize="off" autocomplete="off" spellcheck="false"></div>
+                <div>Type the important words: <span class="mono">tri-colour rat terrier</span></div>  
                 <div>this exact word or phrase:</div>
-                <div><input class="advanced-input" type="text"></div>
-                <div>Put exact words in quotes: "rat terrier"</div>
+                <div><input class="advanced-input" type="text" name="as_epq" autocapitalize="off" autocomplete="off" spellcheck="false"></div>
+                <div>Put exact words in quotes: <span class="mono">"rat terrier"</span></div>
                 <div>any of these words:</div>
-                <div><input class="advanced-input" type="text"></div>
-                <div>Type OR between all the words you want: miniature OR standard</div>
+                <div><input class="advanced-input" type="text" name="as_oq" autocapitalize="off" autocomplete="off" spellcheck="false"></div>
+                <div>Type OR between all the words you want: <span class="mono">miniature OR standard</span></div>
                 <div>none of these words:</div>
-                <div><input class="advanced-input" type="text"></div>
-                <div>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
+                <div><input class="advanced-input" type="text" name="as_eq" autocapitalize="off" autocomplete="off" spellcheck="false"></div>
+                <div>Put a minus sign just before words that you don't want: <span class="mono">-rodent, -"Jack Russell"</span></div>
                 <div></div>
-                <div><input type="submit" value="Advanced Search"></div>
+                <div><input id="advanced-button" type="submit" value="Advanced Search"></div>
                 <div></div>
             </div>
         </form>

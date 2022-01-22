@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-size: 14px;
-    font-family: Arial, sans-serif;
+    font-family: arial, sans-serif;
 }
 #nav {
     display: flex;
@@ -79,7 +79,7 @@ input[type=submit] {
     padding: 10px 16px;
     text-decoration: none;
     font-size: 14px;
-    border-radius: 5px;
+    border-radius: 2px;
     width: auto;
 }
 input[type=submit]:hover {
@@ -93,12 +93,35 @@ input[type=submit]:hover {
 .advanced-search {
     margin: 35px;
     display: grid;
-    grid-template-columns: 150px 500px auto;
+    grid-template-columns: 150px 600px auto;
     grid-gap: 25px;
     padding: 10px;
-    font-size: 13px;
+    font-size: 12px;
+    align-items: center;
 }
+
 .advanced-input {
     width: 100%;
+    height: 25px;
     border: 1px solid #d9d9d9;
+    
+}
+#sub {
+    font-size: 16px;
+    color: #333;
+}
+#subsub {
+    color: #777;
+    font-weight: 700;
+    font-size: 13px;
+}
+.mono {
+    font-family: monospace;
+    font-size: 11px;
+}
+#advanced-button {
+    background-color: #357ae8;
+    color: #fff;
+    float: right;
+    
 }
