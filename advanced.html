@@ -8,13 +8,38 @@
     <body>
         <div id="nav">
             <div id="left-nav">
-                <a href="index.html"><img src="google_logo.png" alt="google_logo"></a> 
+                <a href="index.html"><img style="width: 25%; height: auto;" src="google_logo.png" alt="google_logo"></a> 
             </div>
             <div id="center-nav"></div>
             <div id="right-nav">
+            <a href="images.html">Images</a>
+            </div>
         </div>
-        <!-- <div id="advanced-search">
-            <h1>Advanced Search</h1> 
-        </div> -->
+        <div id="advanced-search-title">
+            <label>Advanced Search</label>
+        </div>
+        <div style="border-bottom: 1px #ebebeb solid"></div>
+        <form action="https://google.com/search">
+            <div class="advanced-search">
+                <div>Find pages with...</div>
+                <div></div>
+                <div>To do this in the search box.</div>  
+                <div>all these words:</div>
+                <div><input class="advanced-input" type="text"type="text" name="q" autocapitalize="off" autocomplete="off" spellcheck="false"></div>
+                <div>Type the important words: tri-colour rat terrier</div>  
+                <div>this exact word or phrase:</div>
+                <div><input class="advanced-input" type="text"></div>
+                <div>Put exact words in quotes: "rat terrier"</div>
+                <div>any of these words:</div>
+                <div><input class="advanced-input" type="text"></div>
+                <div>Type OR between all the words you want: miniature OR standard</div>
+                <div>none of these words:</div>
+                <div><input class="advanced-input" type="text"></div>
+                <div>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
+                <div></div>
+                <div><input type="submit" value="Advanced Search"></div>
+                <div></div>
+            </div>
+        </form>
     </body>
 </html>

@@ -30,12 +30,11 @@ a {
     flex-direction: column;
     align-items: center;
     position: relative;
-    padding-top: 20px;
+    padding-top: 150px;
 }
 #google {
     box-sizing: border-box;
     position: relative;
-
 }
 #images {
     color: #4285f4;
@@ -52,7 +51,7 @@ a {
     margin: 0 auto;
     max-width: 550px;
 }
-#buttons {
+.buttons {
     padding-top: 18px;
     display: block;
     text-align: center;
@@ -85,4 +84,21 @@ input[type=submit] {
 }
 input[type=submit]:hover {
     border: 1px lightgrey solid;
+}
+#advanced-search-title {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+.advanced-search {
+    margin: 35px;
+    display: grid;
+    grid-template-columns: 150px 500px auto;
+    grid-gap: 25px;
+    padding: 10px;
+    font-size: 13px;
+}
+.advanced-input {
+    width: 100%;
+    border: 1px solid #d9d9d9;
 }
